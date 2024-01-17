@@ -14,7 +14,7 @@ const contract = new web3.eth.Contract(ABI, contractAddress);
 
 app.use(cors({
   
-    origin: ["https://bern-todo.vercel.app"],
+    origin: ["https://bern-todo.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true,
   
