@@ -16,7 +16,7 @@ const Update = ({state}) => {
         
      
         try {
-            const res=await fetch(`http://localhost:3000/etherum/api/view-task/${id}`,{
+            const res=await fetch(`https://bern-todo.vercel.app/etherum/api/view-task/${id}`,{
                 method:'GET',
                 headers:{
                     "content-type":"application/json"
