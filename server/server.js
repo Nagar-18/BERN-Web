@@ -12,7 +12,13 @@ const contractAddress = "0xfa12b55d54e4b2ddab1b27473414e155901b918f";
 const PORT = 3000;
 const contract = new web3.eth.Contract(ABI, contractAddress);
 
-app.use(cors());
+app.use(cors({
+  
+    origin: ["https://bern-todo.vercel.app"],
+    methods: ["POST", "GET"],
+    credentials: true,
+  
+}));
 app.use(express.json());
 //req
 app.get("/etherum/api/view-task/:taskid", async (req, res) => {
