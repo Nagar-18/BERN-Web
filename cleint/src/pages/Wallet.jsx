@@ -29,7 +29,7 @@ saveState(web3,contract,contractAccount[0]);
     <Navigation/>
     <div>
 
-        <button onClick={createWallet}>Wallet</button>
+        <button onClick={createWallet}>Add Wallet</button>
       
     </div></>
   )
