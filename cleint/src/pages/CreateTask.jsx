@@ -45,7 +45,7 @@ const CreateTask = ({state}) => {
     <> <Navigation/>
     <div style={{display:'flex',justifyContent:'center', alignItems:'center'}}>
        
-     <form onSubmit={handleSubmit} style={{height:'40vh', width:'40vw',alignContent:'center',padding:'4vh 4vh',border:' 2px solid white'}}>
+     <form onSubmit={handleSubmit} style={{height:'50vh', width:'65vw',alignContent:'center',padding:'4vh 4vh',border:' 2px solid white'}}>
        <h2>Create Your Note Here</h2>
         <div> <label htmlFor="">Your Note</label>
         <input onChange={(e)=>setContent(e.target.value)} type="text" placeholder='Enter Your note here' /></div>
