@@ -10,7 +10,7 @@ const CreateTask = ({state}) => {
          const {web3,contract,account}=state;
       console.log(state);
         try {
-            const res=await fetch(`http://localhost:3000/etherum/api/create-task`,{
+            const res=await fetch(`https://bern-todo.vercel.app/etherum/api/create-task`,{
                 method:'POST',
                 headers:{
                     "content-type":"application/json"
