@@ -70,7 +70,7 @@ const Update = ({state}) => {
         
      {flag?<>
      <div style={{display:'flex',justifyContent:'center', alignItems:'center'}}>
-        <form onSubmit={handleOnSubmit} style={{height:'40vh', width:'40vw',alignContent:'center',padding:'4vh 4vh',border:' 2px solid white'}}>
+        <form onSubmit={handleOnSubmit} style={{height:'40vh', width:'50vw',alignContent:'center',padding:'4vh 4vh',border:' 2px solid white'}}>
          <h2>Update Your Note Here</h2>
        <div style={{margin:'8px'}}><input onChange={(e)=>setId(e.target.value)} type="text" placeholder='Enter id of the task' /></div>
         <button type='submit'>Submit </button>
