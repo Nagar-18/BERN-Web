@@ -37,7 +37,7 @@ const [notes,setNotes]=useState([]);
      
       <div style={{display:'flex',justifyContent:'center', alignItems:'center'}}>
        
-     <div  style={{height:'40vh', width:'40vw',alignContent:'center',padding:'4vh 4vh',border:' 2px solid white'}}>
+     <div  style={{height:'fit', width:'50vw',alignContent:'center',padding:'4vh 4vh',border:' 2px solid white'}}>
        <h2>Notes Created till Now</h2>
         { 
 
