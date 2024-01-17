@@ -9,7 +9,7 @@ const [notes,setNotes]=useState([]);
        const getData=async()=>{
       
         try {
-            const res=await fetch(`http://localhost:3000/etherum/api/all-task`,{
+            const res=await fetch(`https://bern-todo.vercel.app/etherum/api/all-task`,{
                 method:'GET',
                 headers:{
                     "content-type":"application/json"
