@@ -10,7 +10,7 @@ const ViewTask = () => {
         
      
         try {
-            const res=await fetch(`http://localhost:3000/etherum/api/view-task/${idRef.current.value}`,{
+            const res=await fetch(`https://bern-todo.vercel.app/etherum/api/view-task/${idRef.current.value}`,{
                 method:'GET',
                 headers:{
                     "content-type":"application/json"
